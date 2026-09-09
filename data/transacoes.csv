@@ -1,11 +1,15 @@
 data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+2025-10-01,Vendas do dia,receita,8500.00,entrada
+2025-10-03,Vendas do dia,receita,6200.00,entrada
+2025-10-05,Compra de mercadorias,fornecedores,4200.00,saida
+2025-10-07,Aluguel da loja,operacional,2500.00,saida
+2025-10-10,Conta de energia,operacional,850.00,saida
+2025-10-12,Pagamento de fornecedor,fornecedores,2800.00,saida
+2025-10-15,Salários e encargos,pessoal,4200.00,saida
+2025-10-18,Vendas do dia,receita,7300.00,entrada
+2025-10-20,Parcela de empréstimo,dívida,2500.00,saida
+2025-10-22,Compra de mercadorias,fornecedores,3500.00,saida
+2025-10-25,Vendas do dia,receita,9800.00,entrada
+2025-10-27,Cartão empresarial,dívida,500.00,saida
+2025-10-29,Despesas operacionais,operacional,1200.00,saida
+2025-10-31,Pagamento de fornecedor,fornecedores,1800.00,saida
