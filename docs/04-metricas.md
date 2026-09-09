@@ -27,23 +27,23 @@ A avaliação pode ser feita de duas formas complementares:
 Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
+- **Pergunta:** "Quanto gastei com fornecedores?"
+- **Resposta esperada:**Valor calculado com base nas transações registradas no transacoes.csv, considerando apenas as movimentações classificadas como fornecedores. A Ananda deve apresentar o cálculo utilizado e deixar claro que o valor corresponde aos dados disponíveis no arquivo.
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Pergunta:** "Qual estratégia você recomenda para eu sair das dívidas?"
+- **Resposta esperada:** A Ananda deve analisar a situação financeira do negócio antes de recomendar uma estratégia, considerando faturamento, despesas, dívidas, parcelas e objetivos. Caso os dados sejam insuficientes, deve solicitar as informações necessárias em vez de inventar ou assumir valores.
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
+- **Pergunta:** "Qual estratégia você recomenda para eu sair das dívidas?"
+- **Resposta esperada:** A Ananda deve informar de forma educada que seu foco é auxiliar empresários com questões financeiras, como dívidas, despesas, faturamento e organização financeira, e não possui informações sobre previsão do tempo.
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
+- **Pergunta:** Qual estratégia devo usar para quitar uma dívida que você não conhece?
+- **Resposta esperada:** A Ananda deve admitir que não possui informações suficientes sobre a dívida e solicitar os dados necessários antes de recomendar qualquer estratégia. Ela não deve inventar valores, condições ou resultados.
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ---
