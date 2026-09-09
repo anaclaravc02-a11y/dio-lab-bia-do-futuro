@@ -1,42 +1,37 @@
 [
   {
-    "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "nome": "Redução de despesas",
+    "categoria": "controle_financeiro",
+    "nivel": "baixo",
+    "objetivo": "Reduzir gastos desnecessários e aumentar o dinheiro disponível para pagamento das dívidas",
+    "indicado_para": "Empresários com despesas elevadas ou gastos que podem ser reduzidos"
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "nome": "Aumento de vendas",
+    "categoria": "renda_extra",
+    "nivel": "medio",
+    "objetivo": "Aumentar o faturamento por meio de estratégias de vendas e relacionamento com clientes",
+    "indicado_para": "Negócios que possuem capacidade de aumentar as vendas"
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "nome": "Venda de produtos ou serviços adicionais",
+    "categoria": "renda_extra",
+    "nivel": "medio",
+    "objetivo": "Criar novas fontes de receita utilizando a estrutura ou os conhecimentos já disponíveis no negócio",
+    "indicado_para": "Empresários que possuem produtos, serviços ou habilidades que podem ser explorados"
   },
   {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "nome": "Negociação de dívidas",
+    "categoria": "reestruturacao_de_dividas",
+    "nivel": "baixo",
+    "objetivo": "Buscar melhores condições de pagamento, como redução de juros, parcelas ou prazos",
+    "indicado_para": "Empresários com dívidas que comprometem o fluxo de caixa"
   },
   {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "nome": "Plano de quitação acelerada",
+    "categoria": "quitacao_de_dividas",
+    "nivel": "medio",
+    "objetivo": "Definir uma estratégia para direcionar parte da renda disponível para reduzir as dívidas mais importantes",
+    "indicado_para": "Empresários que possuem capacidade de gerar dinheiro adicional para quitar dívidas"
   }
 ]
